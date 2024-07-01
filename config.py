@@ -27,8 +27,8 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #Shortner (token system) 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "earn2short.in")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "c6416b312ff7ab400fb36614e61add83d51a0464")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "zipshort.net")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "43fb16ff834e0026f99fe1083b70d768b631802b")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/How_to_open_link_rockersbot")
